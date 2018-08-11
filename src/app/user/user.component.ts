@@ -11,7 +11,7 @@ export class UserComponent {
   data;
 
   constructor(private http: Http) {
-    this.http.get("././data/data.json").subscribe(res => this.data = res.json());
+    this.http.get("././assets/data.json").subscribe(res => this.data = res.json());
   }
 
 }

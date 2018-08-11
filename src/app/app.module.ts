@@ -4,7 +4,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { HttpModule } from "@angular/http";
 
 import { AppComponent } from './app.component';
-import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { NavigationBarComponent } from "./navigation-bar/navigation-bar.component";
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
@@ -30,4 +30,6 @@ const routes: Routes = [
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  
+}
